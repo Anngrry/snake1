@@ -204,7 +204,7 @@ header {
 @media (max-width: 1450px){
 	header{
 		width: 90vw;
-		height: 10vh;
+		height: 7vh;
 	}
 	.logo{
 		transform: scale(0.9);
@@ -390,7 +390,7 @@ cursor:pointer;
 }
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1450px) {
 
 	.kometa img {
 		position: absolute;
@@ -424,6 +424,18 @@ cursor:pointer;
 		right: 70%;
 	}
 
+	.name {
+		font-size: 25px;
+	}
+
+	canvas {
+		margin-top: 2%;
+	}
+
+
+	.button {
+		margin-top: 1%;
+	}
 }
 @media (max-width: 1200px) {
 	.kometa img {
