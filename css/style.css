@@ -144,7 +144,7 @@ li {
 header {
 	width: 85vw;
 	margin: 0 auto;
-	height: 15vh;
+	height: 12vh;
 }
 .header_inner {
 	width: 100%;
@@ -229,7 +229,7 @@ header {
 
 @media (max-width: 900px) {
 	header{
-		height: 10vh;
+		height: 7vh;
 		justify-content: center;
 		align-content: center;
 	}
@@ -388,6 +388,19 @@ cursor:pointer;
     bottom: 3%;
     right: 65%;
 }
+
+@media (max-width: 1600px) {
+	
+	canvas{
+	transform: scale(0.7);
+	margin-top: -12%;
+}
+
+	.button{
+		margin-top: -8%;
+	}
+}
+
 
 
 @media (max-width: 1450px) {
